@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9008d72e10afb50534b538c8fb297910",
+    "revision": "ca434ab15fba40e7ef20ccd09cfa8133",
     "url": "/animal-database/index.html"
   },
   {
-    "revision": "05cc66d4aa07fabfe7a2",
-    "url": "/animal-database/static/css/main.16d15c67.chunk.css"
+    "revision": "f6d3c002706f673272ba",
+    "url": "/animal-database/static/css/main.f8bec159.chunk.css"
   },
   {
-    "revision": "78a2785e4f312f21c9a1",
-    "url": "/animal-database/static/js/2.888c8889.chunk.js"
+    "revision": "0449089c7cee45aa78a6",
+    "url": "/animal-database/static/js/2.04c360bd.chunk.js"
   },
   {
-    "revision": "05cc66d4aa07fabfe7a2",
-    "url": "/animal-database/static/js/main.e2a8dc14.chunk.js"
+    "revision": "f6d3c002706f673272ba",
+    "url": "/animal-database/static/js/main.df670e07.chunk.js"
   },
   {
     "revision": "64dec77eb3fcfc62cc0a",
     "url": "/animal-database/static/js/runtime-main.48deb4ae.js"
-  },
-  {
-    "revision": "50138f6ee17090c1f6d0e134ae06b067",
-    "url": "/animal-database/static/media/adblogobf.50138f6e.png"
   },
   {
     "revision": "625074e01c3400e9fde3c54353d2161f",
