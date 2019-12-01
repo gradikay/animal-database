@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3e02bff818ceec1810e25337019dc54",
+    "revision": "7f3080c72c932501a0462ba2b1c85fac",
     "url": "/animal-database/index.html"
   },
   {
-    "revision": "40f331b8f6164ce373f3",
-    "url": "/animal-database/static/css/main.ce3bfe0c.chunk.css"
+    "revision": "24424aa66b95156cff5f",
+    "url": "/animal-database/static/css/main.78b0aed5.chunk.css"
   },
   {
-    "revision": "bfb25083b1f3daccd1df",
-    "url": "/animal-database/static/js/2.4d8585e6.chunk.js"
+    "revision": "e17544cd6597aa6bf87e",
+    "url": "/animal-database/static/js/2.1c53c3d4.chunk.js"
   },
   {
-    "revision": "40f331b8f6164ce373f3",
-    "url": "/animal-database/static/js/main.9ba2effb.chunk.js"
+    "revision": "24424aa66b95156cff5f",
+    "url": "/animal-database/static/js/main.86600e59.chunk.js"
   },
   {
     "revision": "64dec77eb3fcfc62cc0a",
     "url": "/animal-database/static/js/runtime-main.48deb4ae.js"
+  },
+  {
+    "revision": "507e36d10d24b768d961a65eb23be153",
+    "url": "/animal-database/static/media/dino.507e36d1.png"
   },
   {
     "revision": "625074e01c3400e9fde3c54353d2161f",
@@ -32,12 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/animal-database/static/media/insect.be450b13.png"
   },
   {
+    "revision": "43119bfcc13eb11dc5894d8772e19a3d",
+    "url": "/animal-database/static/media/leaves.43119bfc.png"
+  },
+  {
     "revision": "011455f5f83dbbf2b5bf630fdcaa953b",
     "url": "/animal-database/static/media/mammals.011455f5.png"
   },
   {
     "revision": "f76973464b13115da04fdca04d909a8b",
     "url": "/animal-database/static/media/microbes.f7697346.png"
+  },
+  {
+    "revision": "31c18eed802338289a11d98bc141559a",
+    "url": "/animal-database/static/media/spider.31c18eed.png"
   },
   {
     "revision": "f15713631469ebd3757865e0a9d4ea72",
