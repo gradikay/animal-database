@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/animal-database/static/css/main.78b0aed5.chunk.css",
-    "main.js": "/animal-database/static/js/main.86600e59.chunk.js",
-    "main.js.map": "/animal-database/static/js/main.86600e59.chunk.js.map",
+    "main.css": "/animal-database/static/css/main.a279a2af.chunk.css",
+    "main.js": "/animal-database/static/js/main.9f05c2e8.chunk.js",
+    "main.js.map": "/animal-database/static/js/main.9f05c2e8.chunk.js.map",
     "runtime-main.js": "/animal-database/static/js/runtime-main.48deb4ae.js",
     "runtime-main.js.map": "/animal-database/static/js/runtime-main.48deb4ae.js.map",
-    "static/js/2.1c53c3d4.chunk.js": "/animal-database/static/js/2.1c53c3d4.chunk.js",
-    "static/js/2.1c53c3d4.chunk.js.map": "/animal-database/static/js/2.1c53c3d4.chunk.js.map",
+    "static/js/2.38c872b6.chunk.js": "/animal-database/static/js/2.38c872b6.chunk.js",
+    "static/js/2.38c872b6.chunk.js.map": "/animal-database/static/js/2.38c872b6.chunk.js.map",
     "index.html": "/animal-database/index.html",
-    "precache-manifest.11e1ec535ff35438e23b0647fdd75be6.js": "/animal-database/precache-manifest.11e1ec535ff35438e23b0647fdd75be6.js",
+    "precache-manifest.ecca30a0f654d03b8556fb582385d7cf.js": "/animal-database/precache-manifest.ecca30a0f654d03b8556fb582385d7cf.js",
     "service-worker.js": "/animal-database/service-worker.js",
-    "static/css/main.78b0aed5.chunk.css.map": "/animal-database/static/css/main.78b0aed5.chunk.css.map",
+    "static/css/main.a279a2af.chunk.css.map": "/animal-database/static/css/main.a279a2af.chunk.css.map",
     "static/media/dino.png": "/animal-database/static/media/dino.507e36d1.png",
+    "static/media/factopedia.module.css": "/animal-database/static/media/dogbg.1132f012.jpg",
     "static/media/endangered.png": "/animal-database/static/media/endangered.625074e0.png",
     "static/media/extinct.png": "/animal-database/static/media/extinct.a23c2a3c.png",
+    "static/media/index.module.css": "/animal-database/static/media/test3.ee07dfb7.png",
     "static/media/insect.png": "/animal-database/static/media/insect.be450b13.png",
     "static/media/leaves.png": "/animal-database/static/media/leaves.43119bfc.png",
     "static/media/mammals.png": "/animal-database/static/media/mammals.011455f5.png",
     "static/media/microbes.png": "/animal-database/static/media/microbes.f7697346.png",
-    "static/media/spider.png": "/animal-database/static/media/spider.31c18eed.png",
-    "static/media/index.module.css": "/animal-database/static/media/test3.ee07dfb7.png"
+    "static/media/spider.png": "/animal-database/static/media/spider.31c18eed.png"
   },
   "entrypoints": [
     "static/js/runtime-main.48deb4ae.js",
-    "static/js/2.1c53c3d4.chunk.js",
-    "static/css/main.78b0aed5.chunk.css",
-    "static/js/main.86600e59.chunk.js"
+    "static/js/2.38c872b6.chunk.js",
+    "static/css/main.a279a2af.chunk.css",
+    "static/js/main.9f05c2e8.chunk.js"
   ]
 }
