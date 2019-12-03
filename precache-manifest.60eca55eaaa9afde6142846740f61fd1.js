@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6dbeb82dd8bfd87a885d9c5a76cbf190",
+    "revision": "bd89bc57fb980962f6bbda9a111dd38d",
     "url": "/animal-database/index.html"
   },
   {
-    "revision": "9d71eb87696316363b8f",
-    "url": "/animal-database/static/css/main.d004ef93.chunk.css"
+    "revision": "78435c517cbe8da18207",
+    "url": "/animal-database/static/css/main.f40370f3.chunk.css"
   },
   {
-    "revision": "51253208341a217fc280",
-    "url": "/animal-database/static/js/2.38c872b6.chunk.js"
+    "revision": "7e5fb93095dbcb086f17",
+    "url": "/animal-database/static/js/2.e92b38f7.chunk.js"
   },
   {
-    "revision": "9d71eb87696316363b8f",
-    "url": "/animal-database/static/js/main.804fd938.chunk.js"
+    "revision": "78435c517cbe8da18207",
+    "url": "/animal-database/static/js/main.2462e386.chunk.js"
   },
   {
     "revision": "64dec77eb3fcfc62cc0a",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "be450b13d12f20c73c00966477d85d7f",
     "url": "/animal-database/static/media/insect.be450b13.png"
-  },
-  {
-    "revision": "43119bfcc13eb11dc5894d8772e19a3d",
-    "url": "/animal-database/static/media/leaves.43119bfc.png"
   },
   {
     "revision": "011455f5f83dbbf2b5bf630fdcaa953b",
