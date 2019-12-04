@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/animal-database/static/css/main.f40370f3.chunk.css",
-    "main.js": "/animal-database/static/js/main.2462e386.chunk.js",
-    "main.js.map": "/animal-database/static/js/main.2462e386.chunk.js.map",
+    "main.css": "/animal-database/static/css/main.bff6068f.chunk.css",
+    "main.js": "/animal-database/static/js/main.8cf2fad2.chunk.js",
+    "main.js.map": "/animal-database/static/js/main.8cf2fad2.chunk.js.map",
     "runtime-main.js": "/animal-database/static/js/runtime-main.48deb4ae.js",
     "runtime-main.js.map": "/animal-database/static/js/runtime-main.48deb4ae.js.map",
     "static/js/2.e92b38f7.chunk.js": "/animal-database/static/js/2.e92b38f7.chunk.js",
     "static/js/2.e92b38f7.chunk.js.map": "/animal-database/static/js/2.e92b38f7.chunk.js.map",
     "index.html": "/animal-database/index.html",
-    "precache-manifest.60eca55eaaa9afde6142846740f61fd1.js": "/animal-database/precache-manifest.60eca55eaaa9afde6142846740f61fd1.js",
+    "precache-manifest.d6d990b4cd33540a7d61c83f26cc557b.js": "/animal-database/precache-manifest.d6d990b4cd33540a7d61c83f26cc557b.js",
     "service-worker.js": "/animal-database/service-worker.js",
-    "static/css/main.f40370f3.chunk.css.map": "/animal-database/static/css/main.f40370f3.chunk.css.map",
+    "static/css/main.bff6068f.chunk.css.map": "/animal-database/static/css/main.bff6068f.chunk.css.map",
     "static/media/dino.png": "/animal-database/static/media/dino.507e36d1.png",
     "static/media/factopedia.module.css": "/animal-database/static/media/dogbg.1132f012.jpg",
     "static/media/endangered.png": "/animal-database/static/media/endangered.625074e0.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.48deb4ae.js",
     "static/js/2.e92b38f7.chunk.js",
-    "static/css/main.f40370f3.chunk.css",
-    "static/js/main.2462e386.chunk.js"
+    "static/css/main.bff6068f.chunk.css",
+    "static/js/main.8cf2fad2.chunk.js"
   ]
 }
