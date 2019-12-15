@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 live site https://gradikay.github.io/animal-database/
 
-## Available Scripts
+## Available Scriptures 
 
 In the project directory, you can run:
 
