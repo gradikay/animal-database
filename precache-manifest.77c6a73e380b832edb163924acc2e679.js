@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f60a592ac9024d456e4412032f18e0be",
+    "revision": "ac19ea0b4292a0449a3e986b0871bf8b",
     "url": "/animal-database/index.html"
   },
   {
-    "revision": "42fff17dd7af1702dd10",
+    "revision": "57a30d067858c067fe99",
     "url": "/animal-database/static/css/main.bff6068f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/animal-database/static/js/2.e92b38f7.chunk.js"
   },
   {
-    "revision": "42fff17dd7af1702dd10",
-    "url": "/animal-database/static/js/main.8cf2fad2.chunk.js"
+    "revision": "57a30d067858c067fe99",
+    "url": "/animal-database/static/js/main.b242dd20.chunk.js"
   },
   {
     "revision": "64dec77eb3fcfc62cc0a",
@@ -62,5 +62,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee07dfb7edf8090003b3a98a12004e7b",
     "url": "/animal-database/static/media/test3.ee07dfb7.png"
+  },
+  {
+    "revision": "621394e8ce5846629b9ad750cd335a1e",
+    "url": "/animal-database/static/media/videoa.621394e8.mp4"
   }
 ]);

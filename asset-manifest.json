@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/animal-database/static/css/main.bff6068f.chunk.css",
-    "main.js": "/animal-database/static/js/main.8cf2fad2.chunk.js",
-    "main.js.map": "/animal-database/static/js/main.8cf2fad2.chunk.js.map",
+    "main.js": "/animal-database/static/js/main.b242dd20.chunk.js",
+    "main.js.map": "/animal-database/static/js/main.b242dd20.chunk.js.map",
     "runtime-main.js": "/animal-database/static/js/runtime-main.48deb4ae.js",
     "runtime-main.js.map": "/animal-database/static/js/runtime-main.48deb4ae.js.map",
     "static/js/2.e92b38f7.chunk.js": "/animal-database/static/js/2.e92b38f7.chunk.js",
     "static/js/2.e92b38f7.chunk.js.map": "/animal-database/static/js/2.e92b38f7.chunk.js.map",
     "index.html": "/animal-database/index.html",
-    "precache-manifest.d6d990b4cd33540a7d61c83f26cc557b.js": "/animal-database/precache-manifest.d6d990b4cd33540a7d61c83f26cc557b.js",
+    "precache-manifest.77c6a73e380b832edb163924acc2e679.js": "/animal-database/precache-manifest.77c6a73e380b832edb163924acc2e679.js",
     "service-worker.js": "/animal-database/service-worker.js",
     "static/css/main.bff6068f.chunk.css.map": "/animal-database/static/css/main.bff6068f.chunk.css.map",
     "static/media/dino.png": "/animal-database/static/media/dino.507e36d1.png",
@@ -19,12 +19,13 @@
     "static/media/insect.png": "/animal-database/static/media/insect.be450b13.png",
     "static/media/mammals.png": "/animal-database/static/media/mammals.011455f5.png",
     "static/media/microbes.png": "/animal-database/static/media/microbes.f7697346.png",
-    "static/media/spider.png": "/animal-database/static/media/spider.31c18eed.png"
+    "static/media/spider.png": "/animal-database/static/media/spider.31c18eed.png",
+    "static/media/videoa.mp4": "/animal-database/static/media/videoa.621394e8.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.48deb4ae.js",
     "static/js/2.e92b38f7.chunk.js",
     "static/css/main.bff6068f.chunk.css",
-    "static/js/main.8cf2fad2.chunk.js"
+    "static/js/main.b242dd20.chunk.js"
   ]
 }
