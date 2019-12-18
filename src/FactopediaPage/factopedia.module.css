@@ -1,0 +1,351 @@
+﻿/*
+    Author: GRADI KAYAMBA
+    width: calc(20% + 100px) -  to calculate some related size to its parent
+    colors from dark to light: #190934, #300D6E, #5918C9, #905BEC, #E9DFFB
+*/
+@charset "utf-8";
+:root {
+    --main-bg-facto-color-one: #0F0830;
+    --main-bg-facto-color-two: #664AE0;
+}
+*, 
+*:before, 
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+body { margin:0; }
+img { border:0; }
+
+::-webkit-scrollbar { width: 17px; }
+::-webkit-scrollbar-button { background-color: #664AE0; border: 2px solid white; }
+::-webkit-scrollbar-thumb { background-color: #4A29DB; border: 2px solid white; }
+::-webkit-scrollbar-thumb:hover { background-color: #664AE0; border: 3px solid white; }
+::-webkit-scrollbar-track { background-color: white; }
+
+.Container,
+.row_inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Box {
+    padding: 20px;
+    flex-basis: 50%;
+    /*border: 1px solid white;*/
+}
+.box_3{
+    flex-basis: 33.333%;
+}
+.box_expand { 
+    flex-basis:100%; 
+
+}
+.Page_box img {
+    max-width: 65%;
+    max-height: 65%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+}
+.Page_box .overlay h3{
+    margin-bottom:0;
+}
+.Page_box .overlay h4{
+    margin-top:0;
+}
+.Page_box .overlay {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--main-bg-facto-color-one);
+    opacity: 0;
+    transition: ease-in-out 1s;
+}
+.Page_box:hover .overlay{
+    opacity:0.98;
+}
+.Page_box {
+    position: relative;
+    width: 10%;
+    height: 100px;
+    background-color: #0f0830;
+    background-image: linear-gradient(182deg, #0f0830, #486f5f59);
+    color: white;
+    border: 3px solid #222b40;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+}
+.row_float_right { 
+    justify-content: flex-end; 
+
+}
+.Aside {
+    flex-basis: 20%;
+    background-color: #f9f8fe;
+    overflow:auto;
+    height:1000px;
+    overflow:auto;
+}
+.header {
+    background-image: url('../img/dogbg.jpg');
+    background-size: cover;
+    background-position-y: -140px;
+    color: #190934;
+    height:445px;
+    background-color:darkorange;
+}
+.headerSpecies {
+    background-color: #190934;
+    color: white;
+    height: 350px;
+    background-image: linear-gradient(45deg, #0b0622, transparent);
+}
+    .header h2, .headerSpecies h2 {
+        font-size: 4vw;
+        margin: 0;
+    }
+    .header p, .headerSpecies p {
+        margin-top: 0;
+        margin-bottom: 70px;
+    }
+    .headerSpecies{
+        position:relative;
+    }
+    .headerSpecies .header_pic {
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        right: 125px;
+        top: 0;
+        padding: 15px;
+        overflow: hidden;
+    }
+    .header_pic img{
+        max-width:100%
+    }
+.headerSpecies p {
+    width: 50%;
+    text-align: justify;
+}
+.Main {
+    color:black;
+}
+.Main,
+.Footer {
+    flex-basis: 80%;
+    color: black;
+    align-content: flex-start;
+}
+.Footer {
+    color: white;
+    background-color: var(--main-bg-facto-color-one);
+    border-top: 1px solid #905BEC;
+}
+
+.Footer section:last-child {
+    text-align: center;
+    border-top: 1px solid #905BEC;
+}
+.container {
+    text-align: center;
+}
+
+.Button {
+    border: 1px solid var(--main-bg-facto-color-one);
+    background-color: #2B1787;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+.Button:hover {
+    background: var(--main-bg-facto-color-one);
+    color: white;
+    transition: .5s;
+}
+.disabled {
+    color: #190934;
+    background-color: transparent;
+    cursor: not-allowed;
+    border: 1px solid #EF5350;
+    pointer-events: visibleStroke;
+}
+
+.accordion .title {
+    padding: 5px 30px;
+    font-size: 1.1vw;
+    cursor: pointer;
+    transform: translate3d(0, 0, 0);
+    color: #0f0830;
+    border: 1px solid #f9f8fe;
+    border-bottom: 1px solid #f1efff;
+    background: #fdfcff;
+    text-align: left;
+    text-transform: uppercase;
+}
+    .accordion .title::after {
+        content: " +";
+        transition: transform .5s ease-in-out;
+        right: 30px;
+    }
+    .accordion .title.is_expanded {
+        transition: background .5s;
+        background: var(--main-bg-facto-color-one);
+        color: white;
+        font-weight: bolder;
+    }
+    .accordion .title.is_expanded::after {
+        content: " -";
+        transform: rotate(-360deg);
+    }
+    .accordion .content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s;
+
+
+}
+    .accordion .content p {
+        padding: 30px 0;
+        margin: 0;
+        opacity: 0;
+        transition: .5s;
+    }
+    .accordion .total {
+        float: right;
+        font-weight: bold;
+        color: #5918C9;
+    }
+    .accordion ul {
+        list-style:none;
+        text-align:left;
+        text-transform:capitalize;
+        padding:0;
+        
+    }
+    .accordion ul a {
+        padding: 2px 30px;
+        text-decoration: none;
+        line-height: 20px;
+        text-transform: capitalize;
+        color: #0f0830;
+        border-bottom: 1px solid #ececec;
+        display: block;
+        transition: ease-in-out 500ms;
+    }
+    .accordion ul a:hover{
+        font-weight:bold;
+    }
+
+.content.is_expanded {
+    max-height: initial;
+    overflow: hidden;
+}
+.content.is_expanded p {
+    opacity: 1;
+}
+
+.content.is_expanded p:after {
+    width: 100%;
+    height: 10px;
+    background: var(--main-bg-facto-color-one);
+    content: '';
+}
+.animal_list {
+    background-color: #ffffff;
+    color: #190934;
+    margin: 1px;
+    border: 1px solid #e6e6e6;
+    padding: 10px 5px;
+    display: inline-flex;
+    text-transform: capitalize;
+    width: 19%;
+    flex-wrap: wrap;
+    font-size: small;
+    transition:ease-in-out 1s;
+}
+    .animal_list:nth-child(odd) {
+        background-color: #FFFDE7;
+    }
+    .animal_list:nth-child(3n) {
+        background-color: #FBE9E7;
+    }
+    .animal_list:hover {
+        background-color: #190934;
+        color: white;
+    }
+@media screen and (max-width:800px), (max-width:1000px) and (orientation:landscape) {
+}
+@media screen and (max-width:800px){
+    .Aside{
+        width:40%;
+        padding:5px;
+    }
+    .Main {
+        width:60%;
+    }
+    .Page_box {
+        width: 31.595%;
+        height: 145px;
+    }
+    .animal_list {
+        width: 32%;
+    }
+
+}
+@media screen and (max-width:480px){
+    .Aside {
+        display:none;
+    }
+    .Aside,
+    .Main {
+        width:100%;
+    }
+    .Container,
+    .row_inner {
+        display: block;
+    }
+    .header {
+        background-position-y: 0px;
+        height: 100vh;
+    }
+        .header h2, .headerSpecies h2 {
+            font-size: 12vw;
+            margin: 0;
+        }
+        .header .disabled {
+            background-color: #ffffff87;
+        }
+    .Page_box {
+        width: 46%;
+        margin: 5px;
+        height: 110px;
+    }
+    .Box {
+        padding: 15px 5px;
+        flex-basis: 100%;
+        padding-bottom: 0;
+        border-bottom: 1px solid #905bec;
+    }
+    .animal_list{
+        width:100%;
+    }
+    .headerSpecies .header_pic {
+        width: 40%;
+        height: 40%;
+        right: 0px;
+        top: 60px;
+    }
+}
+

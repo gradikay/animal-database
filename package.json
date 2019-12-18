@@ -1,13 +1,22 @@
 {
+  "homepage": "https://gradikay.github.io/animal-database",
   "name": "animaldatabase",
   "version": "0.1.0",
+  "author": "Gradi Munsiensi Kayamba ",
+  "description": "Database for Animals",
+  "keywords": [ "Gradi", "Animal Database", "Kayamba" ],
   "private": true,
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -27,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "jest": "^24.9.0"
   }
 }

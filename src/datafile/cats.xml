@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.1.12
+- http://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Nov 23, 2019 at 03:41 AM
+- Server version: 5.6.16
+- PHP Version: 5.5.11
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="animal_genuis_try" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="cats">
+                CREATE TABLE `cats` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(32) NOT NULL,
+                  `weight_1` decimal(10,0) NOT NULL,
+                  `weight_2` decimal(10,0) NOT NULL,
+                  `height_1` decimal(10,0) NOT NULL,
+                  `height_2` decimal(10,0) NOT NULL,
+                  `coat` varchar(30) NOT NULL,
+                  `other_name` varchar(30) NOT NULL,
+                  `color` varchar(40) NOT NULL,
+                  `location` varchar(100) NOT NULL,
+                  `animal_group` varchar(30) NOT NULL,
+                  `offsprings` int(2) NOT NULL,
+                  `life_span` int(3) NOT NULL,
+                  `section_id` int(11) NOT NULL DEFAULT '8',
+                  `specie_id` int(3) NOT NULL DEFAULT '1',
+                  `sub_specie_id` int(3) NOT NULL DEFAULT '17',
+                  `description` text NOT NULL,
+                  `source` text NOT NULL,
+                  `edited_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                  PRIMARY KEY (`id`,`name`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'animal_genuis_try'
+    -->
+    <database name="animal_genuis_try">
+        <!-- Table cats -->
+        <table name="cats">
+            <column name="id">1</column>
+            <column name="name">Abyssinian</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name">abisineuz</column>
+            <column name="color">brown</column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description">0</column>
+            <column name="source">0</column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">2</column>
+            <column name="name">American Bobtail</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name">something else</column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description">0</column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">3</column>
+            <column name="name">American Curl</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">4</column>
+            <column name="name">American Shorthair</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">5</column>
+            <column name="name">American Wirehair</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">6</column>
+            <column name="name">Balinese</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name">the cat behind the fan</column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">7</column>
+            <column name="name">Bengal</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">8</column>
+            <column name="name">Birman</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">9</column>
+            <column name="name">Bombay</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">10</column>
+            <column name="name">British Shorthair</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">11</column>
+            <column name="name">Chartreux</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">12</column>
+            <column name="name">Cornish Rex</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">13</column>
+            <column name="name">Cymric</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">14</column>
+            <column name="name">Devon Rex</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">15</column>
+            <column name="name">Egyptian Mau</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">16</column>
+            <column name="name">Exotic Shorthair</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">17</column>
+            <column name="name">Havana Brown</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">18</column>
+            <column name="name">Himalayan</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">19</column>
+            <column name="name">Japanese Bobtail</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">20</column>
+            <column name="name">Javanese</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">21</column>
+            <column name="name">Korat</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">22</column>
+            <column name="name">Maine Coon</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">23</column>
+            <column name="name">Manx</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">24</column>
+            <column name="name">Munchkin</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">25</column>
+            <column name="name">Nebelung</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">26</column>
+            <column name="name">Norwegian Forest Cat</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">27</column>
+            <column name="name">Ocicat</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">28</column>
+            <column name="name">Oriental</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">29</column>
+            <column name="name">Persian</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">30</column>
+            <column name="name">Ragdoll</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">31</column>
+            <column name="name">Russian Blue</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">32</column>
+            <column name="name">Scottish Fold</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">33</column>
+            <column name="name">Selkirk Rex</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">34</column>
+            <column name="name">Siamese</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">35</column>
+            <column name="name">Siberian</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">36</column>
+            <column name="name">Singapura</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">37</column>
+            <column name="name">Snowshoe</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">38</column>
+            <column name="name">Somali</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">39</column>
+            <column name="name">Sphynx</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">40</column>
+            <column name="name">Tonkinese</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">41</column>
+            <column name="name">Turkish Angora</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+        <table name="cats">
+            <column name="id">42</column>
+            <column name="name">Turkish Van</column>
+            <column name="weight_1">0</column>
+            <column name="weight_2">0</column>
+            <column name="height_1">0</column>
+            <column name="height_2">0</column>
+            <column name="coat"></column>
+            <column name="other_name"></column>
+            <column name="color"></column>
+            <column name="location"></column>
+            <column name="animal_group"></column>
+            <column name="offsprings">0</column>
+            <column name="life_span">0</column>
+            <column name="section_id">8</column>
+            <column name="specie_id">1</column>
+            <column name="sub_specie_id">17</column>
+            <column name="description"></column>
+            <column name="source"></column>
+            <column name="edited_date">2015-02-13 21:14:18</column>
+        </table>
+    </database>
+</pma_xml_export>

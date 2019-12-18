@@ -1,0 +1,179 @@
+﻿/*
+    Author: GRADI KAYAMBA
+    width: calc(20% + 100px) -  to calculate some related size to its parent
+*/
+body { margin:0; }
+img { border:0; }
+.left__align { text-align:left; padding:0 3rem 0 1rem;}
+.right__align { text-align:right; padding:0 1rem 0 20vw; }
+.Header .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -60px;
+    top: 60px;
+    background-color: #00000057;
+}
+.Header {
+    background-color: #0B0622;
+    color: white;
+}
+.Header .Container {
+    background-image: url('../img/fishbg.jpg') ;
+    background-position-y:0vh;
+    background-size:cover;
+}
+.Header .heading_title {
+    font-size:4vw;
+    padding-top:10vh;
+    margin-bottom:0;
+}
+.Container {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.Box {
+    align-self: auto;
+    flex-basis: 30%;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+.box_expend_width {
+    align-self: flex-start;
+    flex-basis: 100%;
+}
+.heading_title {
+    font-size: 3vw;
+    margin-top:75px;
+}
+
+.description_word{
+    font-size: 4vw;
+    font-weight:bolder;
+}
+.Description,
+.Motto {
+    flex-basis: 100%;
+    align-self: baseline;
+    padding: 0 17vw;
+    font-size: 2vw;
+}
+
+.picture_box {
+    padding: 20px;
+    border: 1px solid white;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #664AE0;
+    background-image: linear-gradient(182deg, #6348d9, #486f5fa6);
+}
+.picture_box img{
+    width:60%;
+}
+.Main .Container:first-child {
+    background-image: url('../img/test2.png'), url('../img/test3.png'), url('../img/test4.png');
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: right, right, left;
+    background-size: 8rem, 26rem, 22rem;
+    background-position-y: 53%, 110%, 102%;
+    background-position-x: 66vw, 60vw, 0vw;
+}
+.Main .Container:nth-child(2) {
+    background-color: #0F0830;
+    color: white;
+    padding-left:15px;
+    padding-right:15px;
+}
+.Main .Description {
+    text-align: justify;
+    color: #404040;
+}
+.word_total {
+    padding: 65px;
+}
+.Header .Button {
+    padding: 1rem 5rem;
+    font-size: 1vw;
+    margin-top: 15vh;
+    font-weight: bolder;
+    transition: ease-in-out 1s;
+}
+    .Header .Button:hover {
+        background-color: white;
+        color: #190934;
+        border: 1px solid #190934;
+    }
+
+.Button {
+    border: 1px solid white;
+    background-color: #190934;
+    padding: 15px;
+    color: white;
+}
+.Footer {
+    text-align: center;
+    border-top: 5px solid #0B0621;
+    padding: 15px;
+    background-color: #0F0830;
+    color: #664AE0;
+}
+
+@media screen and (max-width:800px), screen and (max-width:1000px) and (orientation:landscape) {
+
+}
+@media screen and (max-width:480px){
+    .Header .heading_title {
+        font-size: 9vw;
+        line-height: initial;
+        margin: 0;
+        margin-top: 62px;
+    }
+    .Header .overlay {
+        top: 100px;
+        height: 100vh;
+    }
+    .word_total{
+        padding:0;
+        margin-top:0;
+        margin-bottom:40px;
+    }
+    .Box {
+        flex-basis: 100%;
+    }
+    .Description,
+    .Motto {
+        align-self: auto;
+        padding: 0 15px;
+        font-size: 7vw;
+    }
+    .Header .Button {
+        font-size:12px;
+    }
+    .Header .Container {
+         
+    }
+    .heading_title {
+        font-size: 9vw;
+        padding: 0 15px;
+    }
+    .description_word {
+        font-size: 8vw;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .Main .Container:first-child {
+        background-image: url('../img/test4.png');
+        background-repeat: repeat-x;
+        background-position: left;
+        background-size: 22rem;
+        background-position-y: 102%;
+        background-position-x: 0rem;
+    }
+
+}
