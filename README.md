@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b6d12e52-7bca-4e1d-9cd5-252705cfd392/deploy-status)](https://app.netlify.com/sites/peaceful-shannon-1ef48e/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 live site https://gradikay.github.io/animal-database/
