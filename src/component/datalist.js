@@ -1,4 +1,4 @@
-GITimport cavys from '../datafile/cavys.js';
+import cavys from '../datafile/cavys.js';
 import dogs from '../datafile/dogs';
 import ducks from '../datafile/ducks';
 import snakes from '../datafile/snakes';
