@@ -57,7 +57,7 @@ const AnimalPages = ({ match }) => {
 
                             mapping.map((el) => (
 
-                                <Link key={el.index} to={`/animal-database/fact/${el.value}`}><span className={styles.animal_list}> {el.value} </span></Link>
+                                <Link key={el.index} to={`/fact/${el.value}`}><span className={styles.animal_list}> {el.value} </span></Link>
                                 ))
                         }
                     </section>

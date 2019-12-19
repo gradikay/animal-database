@@ -46,7 +46,7 @@ class Root extends React.Component {
                         <Link to="#" className="disabled"><span className="phone-arrow-up">&laquo;</span> Endangered <span className="phone-arrow-down">&laquo;</span></Link>
                         <a href="#1" className="disabled"><span className="phone-arrow-up">&laquo;</span> Extict <span className="phone-arrow-down">&laquo;</span></a>
                         <a href="#1" className="disabled"><span className="phone-arrow-up">&laquo;</span> More <span className="phone-arrow-down">&laquo;</span></a>
-                            <Link to="/animal-database/about">
+                            <Link to="/about">
                                 <span className="phone-arrow-up">&laquo;</span> About <span className="phone-arrow-up">&laquo;</span>
                             </Link>
                         </section>

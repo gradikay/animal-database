@@ -27,7 +27,7 @@ class Header extends React.Component {
                             <p>Home of the Cutest</p>
                         </div>
                         <div className={[styles.Box, styles.box_expend_width].join(' ')}>
-                            <Link to="/animal-database/factopedia"><button className={styles.Button} type="button">FACTOPEDIA</button></Link>
+                            <Link to="/factopedia"><button className={styles.Button} type="button">FACTOPEDIA</button></Link>
                         </div>
                     </div>
                 </section>

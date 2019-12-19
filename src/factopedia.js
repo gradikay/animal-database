@@ -27,7 +27,7 @@ class Factopedia extends React.Component {
                         <section className={[styles.Box, styles.box_expand].join(' ')} >
                             {
                                 databaseList.map((item, i) => (
-                                    <Link to={`/animal-database/species/${item.title}`}><div className={styles.Page_box} key={i}>
+                                    <Link to={`/species/${item.title}`}><div className={styles.Page_box} key={i}>
                                         <img src={`/images/${item.img}.png`} alt={item.img} />
                                         <div className={styles.overlay}>                                        
                                             <h3>{item.title}</h3>
