@@ -104,7 +104,7 @@ const databaseList = [
         list: donkeys,
         breed: false,
         img: 'donkey',
-        type: 'breeds',
+        type: 'breeds', 
         description: [
             'A baby donkey is called colt or foal. ',
             'The donkey sound is called hee - haw. ',

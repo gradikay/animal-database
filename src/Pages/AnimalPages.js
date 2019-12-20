@@ -1,11 +1,11 @@
 import React from 'react';
 /* DATABASE */
-import { list } from '../Component/datalist.js';
+import { list } from '../Components/datalist.js';
 /* CSS */
 import styles from '../css/factopedia.module.css';
 /* PAGES */
-import Aside from '../Component/aside.js'; 
-import Footer from '../Component/pageFooter'; 
+import Aside from '../Components/aside.js'; 
+import Footer from '../Components/pageFooter'; 
 import NotFoundPage from '../Pages/NotFoundPage';
 
 // the match helps the browser match the animal name with the parameter

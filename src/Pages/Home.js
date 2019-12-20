@@ -7,11 +7,11 @@ import endangered from '../img/endangered.png';
 import microbe from '../img/microbes.png';
 import mammal from '../img/mammals.png';
 import insect from '../img/insect.png';
-import { total } from '../Component/datalist'
+import { total } from '../Components/datalist'
 /* CSS */
 import styles from '../css/index.module.css';
 /* PAGES */
-import Footer from '../Component/pageFooter';
+import Footer from '../Components/pageFooter';
 
 class Header extends React.Component {
 

@@ -6,13 +6,13 @@ import {
     NavLink, Link
 } from 'react-router-dom';
 /* DATABASE */
-import { databaseList } from './Component/datalist'
+import { databaseList } from './Components/datalist'
 /* CSS */
 import './css/navbar.css';
 /* PAGES */
 import Main from './Pages/Home.js'; 
 import About from './Pages/About.js';
-import Factopedia from './Component/aside.js';
+import Factopedia from './Components/aside.js';
 import NotFoundPage from './Pages/NotFoundPage.js';
 import AnimalPages from './Pages/AnimalPages.js';
 import SpeciesPages from './Pages/SpeciesPages.js';
