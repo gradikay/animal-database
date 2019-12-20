@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { databaseList, total } from '../Component/datalist.js';
 /* CSS */
 import styles from '../css/factopedia.module.css';
-
+//gradi
 class Accordion extends React.Component {
     render() {
         const { title, expand, onClick, name, length } = this.props;
