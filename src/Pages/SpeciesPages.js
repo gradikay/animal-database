@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import NotFoundPage from '../HomePage/NotFoundPage';
-import styles from '../FactopediaPage/factopedia.module.css';
-import { databaseList } from '../component/datalist.js';
-import Aside from './aside.js'; 
-import Footer from './pagefooter'; 
+/* DATABASE  */
+import { databaseList } from '../Component/datalist.js';
+/* CSS */
+import styles from '../css/factopedia.module.css';
+/* PAGES */
+import Aside from '../Component/aside'; 
+import Footer from '../Component/pageFooter'; 
+import NotFoundPage from '../Pages/NotFoundPage';
 
 // the match helps the browser |match| the animal |title| with the parameter |title| entered in the browser
 // match comes from the react-router-dom

@@ -1,12 +1,12 @@
 import React from 'react';
 import spider from '../img/spider.png';
-import video from '../img/videoa.mp4';
 import dino from '../img/dino.png';
 
 const div = {
     height: 'calc(100vh - 59px)',
     backgroundColor: '#4a29db',
     color: 'white',
+    width: '80%',
     textAlign: 'center',
     paddingTop: '30vh',
     backgroundImage: `url(${spider}), url(${dino}) `,

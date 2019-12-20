@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './factopedia.module.css';
+import styles from '../css/factopedia.module.css';
 
 
 class Footer extends React.Component {

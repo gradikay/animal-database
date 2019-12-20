@@ -21,8 +21,7 @@ nav a {
     padding: 15px;
     transition: ease-out 700ms;
 }
-nav a:hover {background-color:black; color:white;}
-nav a:active {color:var(--main-bg-color-two); text-decoration:underline;}
+nav .links-section a:hover, nav .active {background-color:black; color:white;}
 .disabled {
     color: #9FA8DA;
     pointer-events: none;
@@ -36,7 +35,10 @@ nav {
 }
 nav > section{ display:inline-block; }
 nav > section:first-child { width:20%; }
-nav > section:first-child h1 { text-align:center; }
+nav > section:first-child h1 {
+    text-align: center;
+    margin: 4px;
+}
 nav > section:last-child { width:80%; text-align:right; }
     nav .dropDown {
         display: inline-block;

@@ -3,60 +3,101 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    NavLink, Link
 } from 'react-router-dom';
-import { databaseList } from './component/datalist'
-import './HomePage/navbar.css';
-import Main from './HomePage/main.js';
-import About from './MainPages/about';
-import Factopedia from './factopedia.js';
-import AnimalPages from './FactopediaPage/animalPages';
-import SpeciesPages from './FactopediaPage/speciesPages';
-import NotFoundPage from './HomePage/NotFoundPage';
+/* DATABASE */
+import { databaseList } from './Component/datalist'
+/* CSS */
+import './css/navbar.css';
+/* PAGES */
+import Main from './Pages/Home.js'; 
+import About from './Pages/About.js';
+import Factopedia from './Component/aside.js';
+import NotFoundPage from './Pages/NotFoundPage.js';
+import AnimalPages from './Pages/AnimalPages.js';
+import SpeciesPages from './Pages/SpeciesPages.js';
 
 class Root extends React.Component {
 
     render() {
 
         return ( 
-           <Router>
-                    <nav>
-                        <section>
+            /* ROUTER */
+            <Router>
+                {/* NAV BAR */}
+                <nav>
+                    {/* SECTION SITE NAME */}
+                    <section>
+                        {/* LINK */}
+                        <Link to="/">
+                            {/* TITLE */}
                             <h1> AnimalDatabase </h1>
-                        </section>
-                        <section>
-                            <Link to="/">
-                                <span className="phone-arrow-down">&laquo;</span> Home <span className="phone-arrow-down">&laquo;</span>
-                            </Link>
-                            <div className="dropDown">
-                                <Link to="/factopedia">
+                        </Link>
+                    </section>
+                    {/* SECTION NAV LINKS [.selected] activeClassName*/}
+                    <section className='links-section'>
+                        {/* LINK - HOME */}
+                        <Link to="/">
+                            {/* TITLE */}
+                            <span className="phone-arrow-down">&laquo;</span> Home <span className="phone-arrow-down">&laquo;</span>
+                        </Link>
+                        {/* DROPDOWN */}
+                        <div className="dropDown">
+                            {/* LINK - FACTOPEDIA */}
+                            <NavLink to="/factopedia">
+                                {/* TITLE */}
                                 <span className="phone-arrow-up">&laquo;</span> Factopedia
-                                <span className="phone-arrow-down">&laquo;</span></Link>
-                                <div className="dropDown_box">
-                                    <ul>
-                                    {
-                                        databaseList.map((item, i) => (
-                                            <Link key={i} to={`/species/${item.title}`}><li >                       {item.title}</li></Link>
-                                        ))
-                                    }
-                                    </ul>
-                                </div>
+                                <span className="phone-arrow-down">&laquo;</span>
+                            </NavLink>
+                            {/* DROPDOWN ITEMS */}
+                            <div className="dropDown_box">
+                                {/* MAPPING ITEMS */}
+                                <ul>
+                                    {databaseList.map((item, i) => (
+                                        /* LING ITEMS */
+                                        <NavLink key={i} to={`/species/${item.title}`}>
+                                            {/* ITEMS */}
+                                            <li>{item.title}</li>
+                                        </NavLink>
+                                    ))}
+                                </ul>
                             </div>
-                            
-                        <Link to="#" className="disabled"><span className="phone-arrow-up">&laquo;</span> Endangered <span className="phone-arrow-down">&laquo;</span></Link>
-                        <a href="#1" className="disabled"><span className="phone-arrow-up">&laquo;</span> Extict <span className="phone-arrow-down">&laquo;</span></a>
-                        <a href="#1" className="disabled"><span className="phone-arrow-up">&laquo;</span> More <span className="phone-arrow-down">&laquo;</span></a>
-                            <Link to="/about">
-                                <span className="phone-arrow-up">&laquo;</span> About <span className="phone-arrow-up">&laquo;</span>
-                            </Link>
-                        </section>
-                    </nav>
+                        </div> 
+                        {/* LINK - ENDAGERED SPECIES - DISABLED */}
+                        <Link to="#1" className="disabled">
+                            {/* TITLE */}
+                            <span className="phone-arrow-up">&laquo;</span> Endangered <span className="phone-arrow-down">&laquo;</span>
+                        </Link>
+                        {/* LINK - ENDAGERED SPECIES - DISABLED */}
+                        <Link to="#2" className="disabled">
+                            {/* TITLE */}
+                            <span className="phone-arrow-up">&laquo;</span> Extict <span className="phone-arrow-down">&laquo;</span>
+                        </Link>
+                        {/* LINK - ENDAGERED SPECIES - DISABLED */}
+                        <Link to="#" className="disabled">
+                            {/* TITLE */}
+                            <span className="phone-arrow-up">&laquo;</span> More <span className="phone-arrow-down">&laquo;</span>
+                        </Link>
+                        {/* LINK - ABOUT */}
+                        <NavLink to="/about">
+                            {/* TITLE */}
+                            <span className="phone-arrow-up">&laquo;</span> About <span className="phone-arrow-up">&laquo;</span>
+                        </NavLink>
+                    </section>
+                </nav>
+                {/* SWITCH */}
                 <Switch>
-                    <Route path="/" exact component={Main} activeClassName="selected" />
+                    {/* ROUTES Home - Main Page */}
+                    <Route path="/" exact component={Main} />
+                    {/* Factopedia Page */}
                     <Route path="/factopedia" component={Factopedia} />
+                    {/* Single Animal Page */}
                     <Route path="/fact/:name" component={AnimalPages} />
-                    <Route path="/species/:title" component={SpeciesPages} />
+                    {/* Animal Page */}
+                    <Route path="/factopedia/:title" children={SpeciesPages} />
+                    {/* About Page */}
                     <Route path="/about" component={About} />
+                    {/* NotFound Page */}
                     <Route component={NotFoundPage} />
                 </Switch>     
            </Router>     

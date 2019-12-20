@@ -1,11 +1,13 @@
 import React from 'react';
-import styles from './factopedia.module.css';
 import { Link } from 'react-router-dom';
-import { databaseList, total } from '../component/datalist.js';
+/* DATABASE */
+import { databaseList, total } from '../Component/datalist.js';
+/* CSS */
+import styles from '../css/factopedia.module.css';
 
 class Accordion extends React.Component {
     render() {
-        const { title, expand, onClick, name, length} = this.props;
+        const { title, expand, onClick, name, length } = this.props;
         const Fragment = React.Fragment;
         return (
             <Fragment>
@@ -16,8 +18,7 @@ class Accordion extends React.Component {
                 <div  className={expand ? [styles.content, styles.is_expanded].join(" ") : styles.content} onClick={onClick}>
                     <ul>{name.slice(0, 20)}</ul>
                 </div>
-            </Fragment>
-           
+            </Fragment>           
     );
     
   }
@@ -25,7 +26,7 @@ class Accordion extends React.Component {
 
 // [step:1] This function is returning a <li> for each name data; the <ul> is in the last step |Class Accordion|
 // It is call in the [step:2] Application Class <List /> and passed to the [step:3] Accordion Class as {name}
-const List = ({ nameIn}) => <Link  to={`/animal-database/fact/${nameIn}`}><li itemProp="name">{nameIn}</li></Link>
+const List = ({ nameIn }) => <Link  to={`/animal-database/fact/${nameIn}`}><li itemProp="name">{nameIn}</li></Link>
 
 class Application extends React.Component {  
   constructor (props) {
@@ -60,31 +61,10 @@ class Application extends React.Component {
   toggleExpand = (expand = false) => () => {
     this.setState({
       block1: expand,
-      block2: expand,
-      block3: expand,
-      block4: expand,
-      block5: expand,
-      block6: expand,
-      block7: expand,
-      block8: expand,
-      block9: expand,
-      block10: expand,
-      block11: expand,
-      block12: expand,
-      block13: expand,
-      block14: expand,
-      block15: expand,
-      block16: expand,
-      block17   : expand,
-      block18: expand,
-      block19: expand,
     });
   }
   
     render() {
-               
-        //console.log(databaseList)
-        //console.log(snakes)
       return (
           <div className={styles.container}>
               {/* this is counting the total number of animal in the DB*/}
@@ -103,7 +83,7 @@ class Application extends React.Component {
                                 type={item.type}
                                 length={item.list.length}
                                 name={
-                                    item.list.map((itemIn,) => (
+                                    item.list.map((itemIn) => (
                                 
                                         <List
                                             key={itemIn.id}

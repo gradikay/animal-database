@@ -93,10 +93,33 @@ img { border:0; }
 }
 .Aside {
     flex-basis: 20%;
-    background-color: #f9f8fe;
-    overflow:auto;
-    height:1000px;
-    overflow:auto;
+    background-color: white;
+    overflow: auto;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    border-right: 1px solid lightgray;
+}
+.Aside h2 {
+    text-align:center;
+}
+.Aside h3 {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 15px;
+    margin: 0;
+    background-color: #f2f2f2;
+    text-transform: capitalize;
+    transition: ease-in-out 1s;
+}
+.Aside a {
+    text-decoration: none;
+    color: #383838;
+    display:block; 
+}
+a.selected h3 {
+    color: white;
+    background-color: #383838;
 }
 .header {
     background-image: url('../img/dogbg.jpg');
@@ -109,12 +132,14 @@ img { border:0; }
 .headerSpecies {
     background-color: #190934;
     color: white;
-    height: 350px;
     background-image: linear-gradient(45deg, #0b0622, transparent);
 }
     .header h2, .headerSpecies h2 {
         font-size: 4vw;
         margin: 0;
+    }
+    .headerSpecies ul {
+        width: 70%;
     }
     .header p, .headerSpecies p {
         margin-top: 0;

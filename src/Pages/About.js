@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../FactopediaPage/pagefooter'
+import Footer from '../Component/pageFooter'
 
 const upperDiv = {
     height: '50px',

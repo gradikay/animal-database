@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Root from './root.js';
+import Root from './Root';
 
 
 class Kayamba extends React.Component {
@@ -8,7 +8,7 @@ class Kayamba extends React.Component {
 
         const Fragment = React.Fragment;
 
-        return (
+        return ( 
                 <Fragment>
                     <Root />
                 </Fragment>

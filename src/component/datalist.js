@@ -25,7 +25,16 @@ const databaseList = [
         breed: true,
         img: 'cat',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+             'A baby cat is called kitten.',
+             'The cat sound is called meow.',
+             'Cats sleep 70% of their lives.',
+             'A group of cats is called a clowder, clutter, litter (a group of young born to one female) , or kindle (a group of kittens).',
+             'Each side of a cat\'s face has about 12 whiskers.',
+             'A female cat is also known to be called a "queen" or a "molly."',
+            'Cats\' rough tongues enable them to clean themselves efficiently and to lick clean an animal bone.',
+             'There are 88 million cats compared to 74 million dogs.'
+        ]
     },
     {
         title: 'cattles',
@@ -33,7 +42,15 @@ const databaseList = [
         breed: false,
         img: 'cattle',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cattle is call calf or dogie (a motherless calf).',
+            'A male cattle is call bull or steer.',
+            'Cattle sound is call moo.',
+            'Cattle are members of the ox family.',
+            'A cow\'s udder has four sections to hold her milk.',
+            'Female cattle are know as cow while a young female before she has had a calf of her own and is under three years of age is called a heifer.',
+            'Cattle have one stomach but it is divided into four compartments, the rumen, reticulum, omasum, and abomasum, the rumen being the largest compartment, this arrangement helps cattle to more efficiently digest grains and grasses. ', 
+        ]
     },
     {
         title: 'Cavys',
@@ -41,7 +58,14 @@ const databaseList = [
         breed: true,
         img: 'cavy',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'chickens',
@@ -49,7 +73,13 @@ const databaseList = [
         breed: false,
         img: 'chicken',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A female chicken is called hen and a male chicken is called rooster. ',
+            'A baby chicken is called chick, pullet (young hen or young female) or cockrell (young rooster or young male). ',
+            'A group of chickens is called a flock, brood (of hens), clutch (of chicks), or peep (of chicks). ',
+            'The hen sound is called cluck while a rooster cockadoodledoo. ',
+            'There are more chickens in the world than any other bird. ',
+        ]
     },
     {
         title: 'Dogs',
@@ -57,7 +87,17 @@ const databaseList = [
         breed: true,
         img: 'dog',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby dog is called pup or puppy. ',
+            'Puppies are born blind and deaf. ',
+            'A female dog is called bitch. ',
+            'The dog sound is called bark but it can also yelp, whine, howl and growl. ',
+            'A group of dogs is called a kennel, clutter, litter(a group of young born to one female), or pack(wild).',
+            'Dogs are known as man\'s best friend.',
+            'Dogs are said to be direct descendant from the gray wolf sharing 99.9 % of their DNA.',
+            'Dog have superior hearing than humans, capable of hearing sounds at four times the distance.',
+            'Domestic dogs are omnivores, they feed on a variety of foods including grains, vegetables and meats.',
+        ]
     },
     {
         title: 'donkeys',
@@ -65,7 +105,16 @@ const databaseList = [
         breed: false,
         img: 'donkey',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby donkey is called colt or foal. ',
+            'The donkey sound is called hee - haw. ',
+            'A group of donkey is called a drove or herd. ',
+            'China has more donkeys than any other country in the world. ',
+            'Ass is the correct term for the animal known as the donkey, burro, or jackstock.' ,
+            'A female donkey is called jennet or jenny and a male donkey is called jack or jackass.',
+            'Donkeys come from Africa and the Middle East, where they were tamed more than 5, 000 years ago. ',
+            'A mule is a cross between a male donkey and a female horse.Mules are very strong, but bigger than a donkey. ',
+        ]
     },
     {
         title: 'Ducks',
@@ -73,7 +122,14 @@ const databaseList = [
         breed: true,
         img: 'duck',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'Foxes',
@@ -81,7 +137,14 @@ const databaseList = [
         breed: true,
         img: 'fox',
         type: 'species',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'goats',
@@ -89,7 +152,14 @@ const databaseList = [
         breed: false,
         img: 'goat',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'Goose',
@@ -97,7 +167,14 @@ const databaseList = [
         breed: false,
         img: 'goose',
         type: 'species',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'Horses',
@@ -105,7 +182,14 @@ const databaseList = [
         breed: true,
         img: 'horse',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'Pigeons',
@@ -113,7 +197,14 @@ const databaseList = [
         breed: true,
         img: 'pigeon',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'Pigs',
@@ -121,7 +212,15 @@ const databaseList = [
         breed: true,
         img: 'pig',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'The pig sound is called oink. ',
+            'A baby pig is called piglet, shoat or farrow. ',
+            'A group of pigs is called a drift, drove or team. ',
+            'Pigs are considered smarter than a 3 year old child. ',
+            'Pigs are believed to have been domesticated from wild boar as early as 9000 years ago. ',
+            'Like humans, pigs are omnivores, meaning they eat both plants and other animals. ',
+            'A female pig is called gilt(no piglets or babies) or sow(with piglets or babies) and a male pig is called boar or hog. ',
+        ]
     },
     {
         title: 'ponies',
@@ -129,7 +228,14 @@ const databaseList = [
         breed: false,
         img: 'pony',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'rabbits',
@@ -137,7 +243,14 @@ const databaseList = [
         breed: false,
         img: 'rabbit',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'Sheeps',
@@ -145,7 +258,14 @@ const databaseList = [
         breed: true,
         img: 'sheep',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'Snakes',
@@ -153,7 +273,14 @@ const databaseList = [
         breed: true,
         img: 'snake',
         type: 'species',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'Turkeys',
@@ -161,7 +288,14 @@ const databaseList = [
         breed: true,
         img: 'turkey',
         type: 'breeds',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
     {
         title: 'Turtles',
@@ -169,7 +303,14 @@ const databaseList = [
         breed: true,
         img: 'turtle',
         type: 'species',
-        description: 'Lorem ipsum dolor sit amet, aliquam adversarium mea ad, pri inani molestie recusabo ea, ei eripuit feugiat expetendis nec. Sed ad modus discere torquatos, eruditi interesset mea ut. No idque impetus voluptatum eum. Eam duis quaeque te, per nullam dictas tincidunt te. Putant offendit cum at, pro ubique timeam denique ne, molestie vivendum te ius. Vis ne vitae primis.'
+        description: [
+            'A baby cat is called kitten.general knowledge',
+            'The cat sound is called meow.general knowledge',
+            'Cats sleep 70% of their lives.buzzfeed.com',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
+            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
+            'there are 88 million cats compared to 74 million dogs.factslides.com'
+        ]
     },
 ]; 
 

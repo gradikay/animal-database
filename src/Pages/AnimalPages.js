@@ -1,9 +1,12 @@
 import React from 'react';
-import NotFoundPage from '../HomePage/NotFoundPage';
-import styles from '../FactopediaPage/factopedia.module.css';
-import { databaseList, list } from '../component/datalist.js';
-import Aside from './aside.js'; 
-import Footer from './pagefooter'; 
+/* DATABASE */
+import { list } from '../Component/datalist.js';
+/* CSS */
+import styles from '../css/factopedia.module.css';
+/* PAGES */
+import Aside from '../Component/aside.js'; 
+import Footer from '../Component/pageFooter'; 
+import NotFoundPage from '../Pages/NotFoundPage';
 
 // the match helps the browser match the animal name with the parameter
 const AnimalPages = ({ match }) => {

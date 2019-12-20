@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-// Images
-import animHeight from './img/animalheight.png';
-import extinct from './img/extinct.png';
-import endangered from './img/endangered.png';
-import microbe from './img/microbes.png';
-import mammal from './img/mammals.png';
-import insect from './img/insect.png';
-import { total } from '../component/datalist'
-// CSS - Styling
-import styles from './index.module.css';
-// Classes
-import Footer from '../FactopediaPage/pagefooter';
+/* IMAGES */
+import animHeight from '../img/animalheight.png';
+import extinct from '../img/extinct.png';
+import endangered from '../img/endangered.png';
+import microbe from '../img/microbes.png';
+import mammal from '../img/mammals.png';
+import insect from '../img/insect.png';
+import { total } from '../Component/datalist'
+/* CSS */
+import styles from '../css/index.module.css';
+/* PAGES */
+import Footer from '../Component/pageFooter';
 
 class Header extends React.Component {
 
