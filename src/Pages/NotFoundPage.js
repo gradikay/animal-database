@@ -5,7 +5,7 @@ import dino from '../img/dino.png';
 const div = {
     height: 'calc(100vh - 59px)',
     backgroundColor: '#4a29db',
-    color: 'white',
+    color: 'white', 
     width: '80%',
     textAlign: 'center',
     paddingTop: '30vh',
