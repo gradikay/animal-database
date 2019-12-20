@@ -17,13 +17,13 @@ import goats from '../datafile/goats';
 import chickens from '../datafile/chickens';
 import cattles from '../datafile/cattles';
 import donkeys from '../datafile/donkeys';
-
+//gradi
 const databaseList = [
     {
         title: 'Cats',
         list: cats,
         breed: true,
-        img: 'cat',
+        img: 'cat', 
         type: 'breeds',
         description: [
              'A baby cat is called kitten.',
