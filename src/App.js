@@ -50,7 +50,7 @@ class Root extends React.Component {
                                 <span className="phone-arrow-down">&laquo;</span>
                             </NavLink>
                             {/* DROPDOWN ITEMS */}
-                            <div className="dropDown_box">
+                            <div className="dropDown_box" style={{ display: "none" }}>
                                 {/* MAPPING ITEMS */}
                                 <ul>
                                     {databaseList.map((item, i) => (
