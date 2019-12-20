@@ -8,11 +8,11 @@ import {
     useRouteMatch
 } from "react-router-dom"
 /* DATABASE */
-import { databaseList, total } from '../Component/datalist.js'
+import { databaseList, total } from '../Components/datalist.js'
 /* CSS */
 import styles from '../css/factopedia.module.css'
 import NotFoundPage from '../Pages/NotFoundPage'
-import Footer from '../Component/pageFooter'
+import Footer from '../Components/pageFooter'
 
 //import SpeciesPages from '../Pages/SpeciesPages.js';
 
