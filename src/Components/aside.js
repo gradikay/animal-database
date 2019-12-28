@@ -32,13 +32,14 @@ const Aside = () => {
                         <NavLink to={path}>
                             <h2>Factopedia <br /> <small>{total} animals</small></h2>
                         </NavLink>
-                </div>
+                    </div>
+                    <h3>Breeds</h3>
                     {
                         databaseList.map(animal => (
                             <NavLink key={animal.title + 1} to={`${url}/${animal.title}`} activeClassName={styles.selected}>
-                        <h3 >
+                        <h4>
                             {animal.title} <small style={{"float" : "right"}}>{animal.list.length}</small>
-                        </h3>
+                        </h4>
                     </NavLink>
                 ))
                 }
@@ -48,7 +49,8 @@ const Aside = () => {
                 <Route exact path={path}>
                     {/* if no animal is choosen */}
                     <Home />
-                </Route>
+                    </Route>
+                    {/* remove ' exact ' only one exact */}
                 <Route exact path={`${path}/:name`}>
                     {/* Link to each animal */}
                     <Topic /> 

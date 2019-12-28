@@ -20,7 +20,7 @@ import donkeys from '../datafile/donkeys';
 //gradi
 const databaseList = [
     {
-        title: 'Cats',
+        title: 'cats',
         list: cats,
         breed: true,
         img: 'cat', 
