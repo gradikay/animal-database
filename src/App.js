@@ -7,6 +7,8 @@ import {
 } from 'react-router-dom';
 /* DATABASE */
 import { databaseList } from './Components/datalist'
+/* IMAGES */
+import logo from './img/favicon.png'
 /* CSS */
 import './css/navbar.css';
 /* PAGES */
@@ -31,7 +33,7 @@ class Root extends React.Component {
                         {/* LINK */}
                         <Link to="/">
                             {/* TITLE */}
-                            <h1> AnimalDatabase </h1>
+                            <span className='logo' ><img src={`${logo}`} alt='Logo' /></span><h1> AnimalDatabase </h1>
                         </Link>
                     </section>
                     {/* SECTION NAV LINKS [.selected] activeClassName*/}
