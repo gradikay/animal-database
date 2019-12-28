@@ -311,7 +311,6 @@ a.selected h4 {
     padding: 10px 5px;
     display: inline-flex;
     text-transform: capitalize;
-    width: 19%;
     flex-wrap: wrap;
     font-size: small;
     transition:ease-in-out 1s;

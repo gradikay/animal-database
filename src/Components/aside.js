@@ -8,7 +8,7 @@ import {
     useRouteMatch
 } from "react-router-dom"
 /* DATABASE */
-import { databaseList, total } from '../Components/datalist.js'
+import { mammalList, databaseList, total } from '../Components/datalist.js'
 /* CSS */
 import styles from '../css/factopedia.module.css'
 import NotFoundPage from '../Pages/NotFoundPage'
@@ -37,12 +37,22 @@ const Aside = () => {
                     {
                         databaseList.map(animal => (
                             <NavLink key={animal.title + 1} to={`${url}/${animal.title}`} activeClassName={styles.selected}>
-                        <h4>
-                            {animal.title} <small style={{"float" : "right"}}>{animal.list.length}</small>
-                        </h4>
-                    </NavLink>
-                ))
-                }
+                                <h4>
+                                    {animal.title} <small style={{"float" : "right"}}>{animal.list.length}</small>
+                                </h4>
+                            </NavLink>
+                        ))
+                    }
+                    <h3>Mammals</h3>
+                    {
+                        mammalList.map(animal => (
+                            <NavLink key={animal.title + 1} to={`${url}/${animal.title}`} activeClassName={styles.selected}>
+                                <h4>
+                                    {animal.title} <small style={{ "float": "right" }}>{animal.list.length}</small>
+                                </h4>
+                            </NavLink>
+                        ))
+                    }
             </aside>
                      
             <Switch>
@@ -64,7 +74,8 @@ const Aside = () => {
 const Topic = () => {
  
     let { name } = useParams();
-    const animal = databaseList.find(animal => animal.title === name);
+    let allAnimals = databaseList.concat(mammalList);
+    const animal = allAnimals.find(animal => animal.title === name);
 
     if (!animal) return <NotFoundPage />
     // retriving the name in the databaseList and assign an index: and a value:

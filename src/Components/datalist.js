@@ -17,6 +17,30 @@ import goats from '../datafile/goats';
 import chickens from '../datafile/chickens';
 import cattles from '../datafile/cattles';
 import donkeys from '../datafile/donkeys';
+// MAMMALS
+import artiodactylas from '../datafile/artiodactylas'
+import afrosoricidas from '../datafile/afrosoricidas'
+import carnivors from '../datafile/carnivors'
+import cetaceas from '../datafile/cetaceas'
+import chiropteras from '../datafile/chiropteras'
+import dermopteras from '../datafile/dermopteras'
+import erinaceomorphas from '../datafile/erinaceomorphas'
+import diprotodontias from '../datafile/diprotodontias'
+import edentatas from '../datafile/edentatas.js'
+import hyracoideas from '../datafile/hyracoideas'
+import lagomorphas from '../datafile/lagomorphas'
+import macroscelideas from '../datafile/macroscelideas'
+import marsupials from '../datafile/marsupials'
+import monotremes from '../datafile/monotremes'
+import perissodactylas from '../datafile/perissodactylas'
+import pholidotas from '../datafile/pholidotas'
+import primates from '../datafile/primates'
+import proboscideas from '../datafile/proboscideas'
+import rodentias from '../datafile/rodentias'
+import scandentias from '../datafile/scandentias'
+import sirenias from '../datafile/sirenias'
+import soricomorphas from '../datafile/soricomorphas'
+import tubulidentatas from '../datafile/tubulidentatas'
 //gradi
 const databaseList = [
     {
@@ -304,19 +328,459 @@ const databaseList = [
         img: 'turtle',
         type: 'species',
         description: [
-            'A baby cat is called kitten.general knowledge',
-            'The cat sound is called meow.general knowledge',
-            'Cats sleep 70% of their lives.buzzfeed.com',
-            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .buzzfeed.com',
-            'Each side of a cat\'s face has about 12 whiskers.animalplanet.com',
-            'there are 88 million cats compared to 74 million dogs.factslides.com'
+            'A baby cat is called kitten.',
+            'The cat sound is called meow.',
+            'Cats sleep 70% of their lives.',
+            'A group of cats is called a clowder, clutter, litter(a group of young born to one female) , or kindle(a group of kittens) .',
+            'Each side of a cat\'s face has about 12 whiskers.',
+            'there are 88 million cats compared to 74 million dogs.'
         ]
     },
 ]; 
 
+const mammalList = [
+    {
+        title: 'Afrosoricida',
+        list: afrosoricidas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'afrotherians',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'artiodactyla',
+        list: artiodactylas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: '',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'carnivors',
+        list: carnivors,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: '',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'cetaceas',
+        list: cetaceas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: '',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'chiropteras',
+        list: chiropteras,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: '',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'dermoptera',
+        list: dermopteras,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: '',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'diprotodontia',
+        list: diprotodontias,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: '',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'erinaceomorpha',
+        list: erinaceomorphas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: '',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'edentata',
+        list: edentatas, 
+        breed: false, 
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'xenarthrans',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'hyracoidea',
+        list: hyracoideas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'afrotherians',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'lagomorpha',
+        list: lagomorphas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: '',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'macroscelidea',
+        list: macroscelideas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'afrotherians',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'marsupials',
+        list: marsupials,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'metatheria',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'Monotremes',
+        list: monotremes,
+        breed: false,
+        order: 'monotremata',
+        scientificName: 'monotremata',
+        class: 'mammalia',
+        subClass: 'prototheria',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'perissodactyla',
+        list: perissodactylas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: '',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'pholidota',
+        list: pholidotas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: '',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'primates',
+        list: primates,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'boreoeutherians',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'proboscidea',
+        list: proboscideas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'afrotherians',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'rodentia',
+        list: rodentias,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'afrotherians',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'scandentia',
+        list: scandentias,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'boreoeutherians',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'sirenia',
+        list: sirenias,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'afrotherians',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'soricomorpha',
+        list: soricomorphas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'afrotherians',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+    {
+        title: 'tubulidentata',
+        list: tubulidentatas,
+        breed: false,
+        order: '',
+        scientificName: '',
+        class: 'mammalia',
+        subClass: 'afrotherians',
+        img: '',
+        type: 'species',
+        description: [
+            'Mammals are warm - blooded.',
+            'The Cenezoic Era is the \'Age of Mammals\'.',
+            'The smallest mammal is the bumblebee bat.about.com',
+            'There are between 4, 500 and 5, 000 species of mammals.',
+            'The first mammals appeared approximately 200 million years ago during the Jurassic Period.',
+            'Mammals are a clade of endothermic amniotes distinguished from reptiles and birds by the possession of hair, three middle ear bones, mammary glands, and a neocortex.',
+        ]
+    },
+];
+
 // the list varable concatinate all our arrays into one arrays.
-const list = cavys.concat(ducks, dogs, snakes, turtles, cats, turkeys, pigeons, pigs, horses, foxs, geeses, sheeps, rabbits, ponys, goats, chickens, cattles, donkeys);
+const list = cavys.concat(ducks, dogs, snakes, turtles, cats, turkeys, pigeons, pigs, horses, foxs, geeses, sheeps, rabbits, ponys, goats, chickens, cattles, donkeys, monotremes, afrosoricidas, sirenias, hyracoideas, macroscelideas, proboscideas, tubulidentatas, marsupials, edentatas, artiodactylas, carnivors, cetaceas, chiropteras, dermopteras, diprotodontias, erinaceomorphas, lagomorphas, perissodactylas, primates, pholidotas, rodentias, scandentias);
 
 let total = list.length.toLocaleString();
 
-export { databaseList, total, list };
+export { mammalList, databaseList, total, list };
