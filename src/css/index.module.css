@@ -10,8 +10,8 @@ img { border:0; }
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -60px;
-    top: 60px;
+    bottom: -52px;
+    top: 50px;
     background-color: #00000057;
 }
 .Header {
