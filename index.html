@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimalDatabase</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="public/favicon.ico">
+</head>
+<body>
+    <nav>
+        <section>
+            <a href="#" class="logo-link">
+                <span class="logo"><img src="src/img/favicon.png" alt="Logo"></span>
+                <h1>AnimalDatabase</h1>
+            </a>
+        </section>
+        <section class="links-section">
+            <a href="#" data-page="home">Home</a>
+            <div class="dropDown">
+                <a href="#factopedia" data-page="factopedia">Factopedia</a>
+                <div class="dropDown_box">
+                    <ul id="nav-dropdown-list"></ul>
+                </div>
+            </div>
+            <a href="#" class="disabled">Endangered</a>
+            <a href="#" class="disabled">Extinct</a>
+            <a href="#" class="disabled">More</a>
+            <a href="#about" data-page="about">About</a>
+        </section>
+    </nav>
+    <div id="app"></div>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
